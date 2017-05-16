@@ -1,3 +1,5 @@
+<img src="paygol_logo.png" alt="PayPal - OpenCart" />
+
 # OpenCart
 ## PayGol module for OpenCart, version 1.0 <br>
 
@@ -6,6 +8,8 @@
 [Installation](#installation) <br>
 [Testing](#testing) <br>
 [Important Notes](#important-notes) <br>
+
+---
 
 ### About PayGol:
 
