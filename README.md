@@ -22,22 +22,22 @@
 
 - Working OpenCart installation (tested with versions: 2.3.0.2, 2.3.0.1, 2.3.0).
 - PayGol account, you can register for free at https://secure.paygol.com/register
-- "Standard" type PayGol service, which can be created at https://www.paygol.com/en/webapps (you must be logged in).
+- "`Standard`" type PayGol service, which can be created at https://www.paygol.com/en/webapps (you must be logged in).
   
   
 ### Installation:
 
-- Upload file "paygol-for-opencart.1.0.ocmod.zip" via OpenCart, directly from the admin menu (Dashboard -> Extension installer -> Upload(button) -> select file, wait for the progress bar to fill.
-- Install the PayGol module in your OpenCart admin panel (Extensions -> Payments -> Search "PayGol" -> Press Install).
-- Enter the ID of your PayGol service (can be found at the "My Services" section of your panel, at PayGol's website).
-- Activate the module, proceed to the module's setup page (Extensions -> Payments -> Search "PayGol" -> Press "Edit" -> Status -> Enabled).
-- Paste the provided IPN URL into the "Background URL (IPN)" field at your service's configuration, which you can access through 
-  the "My Services" section of your panel, at PayGol's website.
+- Upload file "`paygol-for-opencart.1.0.ocmod.zip`" via OpenCart, directly from the admin menu (`Dashboard -> Extension installer -> Upload(button) -> select file`, wait for the progress bar to fill.
+- Install the PayGol module in your OpenCart admin panel (`Extensions -> Payments -> Search "PayGol" -> Press Install`).
+- Enter the ID of your PayGol service (can be found at the "`My Services`" section of your panel, at PayGol's website).
+- Activate the module, proceed to the module's setup page (`Extensions -> Payments -> Search "PayGol" -> Press "Edit" -> Status -> Enabled`).
+- Paste the provided IPN URL into the "`Background URL (IPN)`" field at your service's configuration, which you can access through 
+  the "`My Services`" section of your panel, at PayGol's website.
   
 
 ### Testing:
 
-- To test the newly installed module you can enable your service's "Test" mode at the "My Services" section of your panel 
+- To test the newly installed module you can enable your service's "`Test`" mode at the "`My Services`" section of your panel 
   at PayGol's website. Be sure to change it back before going live.
 
 
