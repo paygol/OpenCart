@@ -1,5 +1,5 @@
 # OpenCart
-******* English *******
+#******* English *******
 
 PayGol module for OpenCart, version 1.0
 
@@ -46,7 +46,7 @@ Important Notes:
 
 
 
-******* Español *******
+#******* Español *******
 
 Módulo de PayGol para OpenCart, versión 1.0
 
