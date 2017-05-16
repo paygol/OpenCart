@@ -14,9 +14,8 @@
 ### About PayGol:
 
 - PayGol is an online payment service provider that offers a wide variety of both worldwide and local payment methods.
-- Additional information can be found at:
-  https://www.paygol.com/en/  
-  https://www.paygol.com/en/pricing
+- Website:         https://www.paygol.com  <br>
+- Payment methods: https://www.paygol.com/pricing
     
 
 ### Requirements:
@@ -51,4 +50,4 @@
   once it's confirmed by the provider will it show as paid. We strongly recommend that you inform your customers about this 
   beforehand in order to avoid confusions.
 
-
+---
