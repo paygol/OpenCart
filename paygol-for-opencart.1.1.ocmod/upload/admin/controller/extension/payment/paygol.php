@@ -24,7 +24,7 @@ class ControllerExtensionPaymentPaygol extends Controller
 		$data['text_complete'] = $this->language->get('text_complete');
 		$data['entry_merchant_id'] = $this->language->get('entry_merchant_id');
 		$data['entry_merchant_key'] = $this->language->get('entry_merchant_key');
-    	$data['entry_order_status'] = $this->language->get('entry_order_status');
+    	        $data['entry_order_status'] = $this->language->get('entry_order_status');
 		$data['entry_callback'] = $this->language->get('entry_callback');
 		$data['entry_geo_zone'] = $this->language->get('entry_geo_zone');
 		$data['entry_status'] = $this->language->get('entry_status');
@@ -71,17 +71,13 @@ class ControllerExtensionPaymentPaygol extends Controller
 			$data['paygol_merchant_id'] = $this->config->get('paygol_merchant_id');
 		}
 		
-		
-		
-
-		 
 		if (isset($this->request->post['paygol_merchant_key'])) {
 			$data['paygol_merchant_key'] = $this->request->post['paygol_merchant_key'];
 		} else {
 			$data['paygol_merchant_key'] = $this->config->get('paygol_merchant_key');
 		}
 		
-        if (isset($this->request->post['paygol_status'])) {
+                if (isset($this->request->post['paygol_status'])) {
 			$data['paygol_status'] = $this->request->post['paygol_status'];
 		} else {
 			$data['paygol_status'] = $this->config->get('paygol_status');
@@ -127,7 +123,7 @@ class ControllerExtensionPaymentPaygol extends Controller
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
 		$this->response->setOutput($this->load->view('extension/payment/paygol.tpl', $data));
-	}
+	 }
 	protected function validate() {
 		if (!$this->user->hasPermission('modify', 'extension/payment/paygol')) {
 			$this->error['warning'] = $this->language->get('error_permission');
