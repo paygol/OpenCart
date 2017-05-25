@@ -4,7 +4,7 @@ $_['heading_title']			  = 'PayGol';
 // Text
 $_['text_payment']			  = 'Pago';
 $_['text_success']			  = 'Operación realizada exitosamente';
-$_['text_edit']           = 'Editar';
+$_['text_edit']                = 'Editar';
 $_['text_paygol']	     	  = '<a href="https://www.paygol.com" target="_blank"><img src="view/image/payment/paygol.png" alt="PayGol.com" title="PayGol.com" style="height:30px; border: 1px solid #EEEEEE;" /></a>';
 // Entry
 $_['entry_merchant_id']		= 'ID de servicio';
