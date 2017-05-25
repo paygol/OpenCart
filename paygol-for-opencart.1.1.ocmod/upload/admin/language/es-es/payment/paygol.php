@@ -24,3 +24,4 @@ $_['text_complete']       = 'PayGol completado';
 
 $_['error_permission']    = 'Advertencia: Usted no tiene permiso para modificar este módulo';
 $_['error_receiver']      = 'ID de servicio requerido';
+
