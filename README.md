@@ -1,13 +1,14 @@
 <img src="paygol_logo.png" alt="PayPal - OpenCart" />
 
 # OpenCart
-## PayGol module for OpenCart, version 1.0 <br>
+## PayGol module for OpenCart, version 1.1 <br>
 
 [About PayGol](#about-paygol) <br>
 [Requirements](#requirements) <br>
 [Installation](#installation) <br>
 [Testing](#testing) <br>
 [Important Notes](#important-notes) <br>
+[Changelog](#changelog)<br><br>
 
 ---
 
@@ -27,9 +28,10 @@
   
 ### Installation:
 
-- Upload file "`paygol-for-opencart.1.0.ocmod.zip`" via OpenCart, directly from the admin menu (`Dashboard -> Extension installer -> Upload(button) -> select file`, wait for the progress bar to fill.
+- Upload file "`paygol-for-opencart.1.1.ocmod.zip`" via OpenCart, directly from the admin menu (`Dashboard -> Extension installer -> Upload(button) -> select file`, wait for the progress bar to fill.
 - Install the PayGol module in your OpenCart admin panel (`Extensions -> Payments -> Search "PayGol" -> Press Install`).
 - Enter the ID of your PayGol service (can be found at the "`My Services`" section of your panel, at PayGol's website).
+- Enter the secret key of your PayGol service (can be found at the "My Services" section of your panel, at PayGol's website).
 - Activate the module, proceed to the module's setup page (`Extensions -> Payments -> Search "PayGol" -> Press "Edit" -> Status -> Enabled`).
 - Paste the provided IPN URL into the "`Background URL (IPN)`" field at your service's configuration, which you can access through 
   the "`My Services`" section of your panel, at PayGol's website.
@@ -50,4 +52,18 @@
   once it's confirmed by the provider will it show as paid. We strongly recommend that you inform your customers about this 
   beforehand in order to avoid confusions.
 
+
+### Changelog
+
+
+#### v1.1
+- New release, added validation for payment notifications.
+
+#### v1.0
+
+- Initial release.
+
 ---
+<br>
+
+
