@@ -1,6 +1,6 @@
 ******* English *******
 
-PayGol module for OpenCart, version 1.0
+PayGol module for OpenCart, version 1.1
 
 
 About PayGol:
@@ -20,7 +20,7 @@ Requirements:
   
 Installation:
 
-- Upload file "paygol-for-opencart.1.0.ocmod.zip" via OpenCart, directly from the admin menu (Dashboard -> Extension installer -> Upload(button) -> select file, wait for the progress bar to fill.
+- Upload file "paygol-for-opencart.1.1.ocmod.zip" via OpenCart, directly from the admin menu (Dashboard -> Extension installer -> Upload(button) -> select file, wait for the progress bar to fill.
 - Install the PayGol module in your OpenCart admin panel (Extensions -> Payments -> Search "PayGol" -> Press Install).
 - Enter the ID of your PayGol service (can be found at the "My Services" section of your panel, at PayGol's website).
 - Enter the secret key of your PayGol service (can be found at the "My Services" section of your panel, at PayGol's website).
@@ -32,7 +32,7 @@ Installation:
 Testing:
 
 - To test the newly installed module you can enable your service's "Test" mode at the "My Services" section of your panel 
-  at PayGol's website.†Be sure to change it back before going live.
+  at PayGol's website.¬†Be sure to change it back before going live.
 
 
 Important Notes:
@@ -46,48 +46,48 @@ Important Notes:
 
 
 
-******* EspaÒol *******
+******* Espa√±ol *******
 
-MÛdulo de PayGol para OpenCart, versiÛn 1.0
+M√≥dulo de PayGol para OpenCart, versi√≥n 1.1
 
 
 Acerca de PayGol:
 
-- PayGol es un proveedor de servicios de pago en lÌnea que ofrece una amplia variedad de formas de pago tanto a nivel mundial como local.
-- InformaciÛn adicional se encuentra disponible en:
+- PayGol es un proveedor de servicios de pago en l√≠nea que ofrece una amplia variedad de formas de pago tanto a nivel mundial como local.
+- Informaci√≥n adicional se encuentra disponible en:
   https://www.paygol.com/es/  
   https://www.paygol.com/es/pricing
 
 
 Requerimientos:
 
-- InstalaciÛn funcional de OpenCart (probado con las versiones: 2.3.0.2, 2.3.0.1, 2.3.0).
+- Instalaci√≥n funcional de OpenCart (probado con las versiones: 2.3.0.2, 2.3.0.1, 2.3.0).
 - Cuenta en PayGol, puedes registrarte de forma gratuita en https://secure.paygol.com/register
-- Servicio tipo "Est·ndar", el cual puede ser creado en https://www.paygol.com/es/webapps (debes haber ingresado a tu cuenta).
+- Servicio tipo "Est√°ndar", el cual puede ser creado en https://www.paygol.com/es/webapps (debes haber ingresado a tu cuenta).
   
   
-InstalaciÛn:
+Instalaci√≥n:
 
-- Cargar archivo "paygol-for-opencart.1.0.ocmod.zip" via OpenCart, directamente desde el menu del administador (Tablero ->Instalador de extensiones ->Subir (botÛn) ->seleccionar archivo, esperar que la barra de progreso se llene.
-- Instala el mÛdulo de PayGol en tu panel de administraciÛn de OpenCart (Extensiones -> Tipos de pagos -> Buscar "PayGol" -> Presionar "Instalar").
-- Ingresa el ID de tu servicio de PayGol (puede ser encontrado en la secciÛn "Mis Servicios" de tu panel, en el sitio web de PayGol).
-- Ingresa secret key de tu servicio de PayGol (puede ser encontrado en la secciÛn "Mis Servicios" de tu panel, en el sitio web de PayGol).
-- Activar el modulo, accede a la p·gina de configuraciÛn del mÛdulo (Extensiones -> Tipos de pagos -> Buscar "PayGol" -> Presionar "Editar" -> Estado -> Habilitado).
-- Copia la IPN URL proporcionada y pÈgala en el campo "URL de proceso (IPN)" de la configuraciÛn de tu servicio, accesible a travÈs de 
-  la secciÛn "Mis Servicios" de tu panel, en el sitio web de PayGol.
+- Cargar archivo "paygol-for-opencart.1.1.ocmod.zip" via OpenCart, directamente desde el menu del administador (Tablero ->Instalador de extensiones ->Subir (bot√≥n) ->seleccionar archivo, esperar que la barra de progreso se llene.
+- Instala el m√≥dulo de PayGol en tu panel de administraci√≥n de OpenCart (Extensiones -> Tipos de pagos -> Buscar "PayGol" -> Presionar "Instalar").
+- Ingresa el ID de tu servicio de PayGol (puede ser encontrado en la secci√≥n "Mis Servicios" de tu panel, en el sitio web de PayGol).
+- Ingresa secret key de tu servicio de PayGol (puede ser encontrado en la secci√≥n "Mis Servicios" de tu panel, en el sitio web de PayGol).
+- Activar el modulo, accede a la p√°gina de configuraci√≥n del m√≥dulo (Extensiones -> Tipos de pagos -> Buscar "PayGol" -> Presionar "Editar" -> Estado -> Habilitado).
+- Copia la IPN URL proporcionada y p√©gala en el campo "URL de proceso (IPN)" de la configuraci√≥n de tu servicio, accesible a trav√©s de 
+  la secci√≥n "Mis Servicios" de tu panel, en el sitio web de PayGol.
   
     
 Pruebas:
 
-- Para probar el mÛdulo tras su instalaciÛn puedes activar el modo de pruebas de tu servicio en la secciÛn "Mis Servicios" 
-  de tu panel, en el sitio web de PayGol. Recuerda cambiarlo de vuelta una vez concluÌdas tus pruebas.
+- Para probar el m√≥dulo tras su instalaci√≥n puedes activar el modo de pruebas de tu servicio en la secci√≥n "Mis Servicios" 
+  de tu panel, en el sitio web de PayGol. Recuerda cambiarlo de vuelta una vez conclu√≠das tus pruebas.
 
 
 Notas Importantes:
 
-- En modo de pruebas se realizar· un llamado a tu archivo IPN inmediatamente despuÈs de cada prueba.
-- Los pagos usualmente son notificados inmediatamente; ahora bien, algunos mÈtodos de pago podrÌan tomar m·s tiempo en notificar 
-  la transacciÛn (ej: mÈtodos que toman algunos minutos en realizar la notificaciÛn, o mÈtodos basados en boletos que deben ser 
-  impresos y pagados en efectivo). En esos casos el producto se mostrar· como pendiente, y sÛlo una vez sea confirmado por el 
-  proveedor se mostrar· como pagado. Recomendamos que informes a tu clientela sobre esto a modo de evitar confusiones.
+- En modo de pruebas se realizar√° un llamado a tu archivo IPN inmediatamente despu√©s de cada prueba.
+- Los pagos usualmente son notificados inmediatamente; ahora bien, algunos m√©todos de pago podr√≠an tomar m√°s tiempo en notificar 
+  la transacci√≥n (ej: m√©todos que toman algunos minutos en realizar la notificaci√≥n, o m√©todos basados en boletos que deben ser 
+  impresos y pagados en efectivo). En esos casos el producto se mostrar√° como pendiente, y s√≥lo una vez sea confirmado por el 
+  proveedor se mostrar√° como pagado. Recomendamos que informes a tu clientela sobre esto a modo de evitar confusiones.
   
