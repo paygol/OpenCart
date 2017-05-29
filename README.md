@@ -23,7 +23,7 @@
 
 - Working OpenCart installation (tested with versions: 2.3.0.2, 2.3.0.1, 2.3.0).
 - Paygol account, you can register for free at https://secure.paygol.com/register
-- "`Standard`" type PayGol service, which can be created at https://www.paygol.com/en/webapps (you must be logged in).
+- "`Standard`" type Paygol service, which can be created at https://www.paygol.com/en/webapps (you must be logged in).
   
   
 ### Installation:
