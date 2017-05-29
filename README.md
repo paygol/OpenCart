@@ -34,7 +34,7 @@
 - Enter the `secret key` of your Paygol service (can be found at the "`My Services`" section of your panel, at Paygol's website).
 - Activate the module, proceed to the module's setup page (`Extensions -> Payments -> Search "Paygol" -> Press "Edit" -> Status -> Enabled`).
 - Paste the provided IPN URL into the "`Background URL (IPN)`" field at your service's configuration, which you can access through 
-  the "`My Services`" section of your panel, at PayGol's website.
+  the "`My Services`" section of your panel, at Paygol's website.
   
 
 ### Testing:
