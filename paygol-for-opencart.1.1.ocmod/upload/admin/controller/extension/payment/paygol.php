@@ -1,4 +1,4 @@
-  <?php
+<?php
 class ControllerExtensionPaymentPaygol extends Controller 
 {
 	private $error = array();
